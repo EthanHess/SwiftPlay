@@ -161,11 +161,11 @@ class ViewController: UIViewController {
     
     func mockUserArray() -> [UserStruct] {
         
-        let Jim = UserStruct(name: "Jim", username: "jim@g.com")
-        let Joe = UserStruct(name: "Joe", username: "joe@g.com")
-        let Jose = UserStruct(name: "Jose", username: "jose@g.com")
-        let Julia = UserStruct(name: "Julia", username: "julia@g.com")
-        let Megan = UserStruct(name: "Megan", username: "megan@g.com")
+        let Jim = UserStruct(username: "jim@g.com")
+        let Joe = UserStruct(username: "joe@g.com")
+        let Jose = UserStruct(username: "jose@g.com")
+        let Julia = UserStruct(username: "julia@g.com")
+        let Megan = UserStruct(username: "megan@g.com")
     
         return [Jim, Joe, Jose, Julia, Megan]
     }

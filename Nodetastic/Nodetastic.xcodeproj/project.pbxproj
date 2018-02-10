@@ -11,6 +11,8 @@
 		27441F4E1F09906900DD0EA0 /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27441F4D1F09906800DD0EA0 /* ClassStructViewController.swift */; };
 		27441F501F09989B00DD0EA0 /* SwizzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27441F4F1F09989B00DD0EA0 /* SwizzleViewController.swift */; };
 		27441F521F0C304D00DD0EA0 /* SwizzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27441F511F0C304D00DD0EA0 /* SwizzleView.swift */; };
+		27556CCB202E8D6B00716A6E /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27556CCA202E8D6B00716A6E /* OperationQueueViewController.swift */; };
+		27556CCD202EA1F100716A6E /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27556CCC202EA1F100716A6E /* GlobalFunctions.swift */; };
 		27769E881EFDA33D0028A967 /* LogDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27769E871EFDA33D0028A967 /* LogDebugging.swift */; };
 		27769E8A1F006EBB0028A967 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27769E891F006EBB0028A967 /* MapViewController.swift */; };
 		27FE19B21EFC5CD100ACDA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE19B11EFC5CD100ACDA6E /* AppDelegate.swift */; };
@@ -28,6 +30,8 @@
 		27441F4D1F09906800DD0EA0 /* ClassStructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
 		27441F4F1F09989B00DD0EA0 /* SwizzleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwizzleViewController.swift; sourceTree = "<group>"; };
 		27441F511F0C304D00DD0EA0 /* SwizzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwizzleView.swift; sourceTree = "<group>"; };
+		27556CCA202E8D6B00716A6E /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
+		27556CCC202EA1F100716A6E /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		27769E871EFDA33D0028A967 /* LogDebugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDebugging.swift; sourceTree = "<group>"; };
 		27769E891F006EBB0028A967 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		27FE19AE1EFC5CD100ACDA6E /* Nodetastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nodetastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,11 +80,13 @@
 				27FE19B31EFC5CD100ACDA6E /* ViewController.swift */,
 				27769E891F006EBB0028A967 /* MapViewController.swift */,
 				27441F4D1F09906800DD0EA0 /* ClassStructViewController.swift */,
+				27556CCA202E8D6B00716A6E /* OperationQueueViewController.swift */,
 				27441F4F1F09989B00DD0EA0 /* SwizzleViewController.swift */,
 				27441F511F0C304D00DD0EA0 /* SwizzleView.swift */,
 				27441F4B1F08206F00DD0EA0 /* KVOController.swift */,
 				27FE19C31EFC5FDD00ACDA6E /* Node.swift */,
 				27FE19C71EFC606100ACDA6E /* User.swift */,
+				27556CCC202EA1F100716A6E /* GlobalFunctions.swift */,
 				27FE19C51EFC601B00ACDA6E /* StackController.swift */,
 				27769E871EFDA33D0028A967 /* LogDebugging.swift */,
 				27FE19B51EFC5CD100ACDA6E /* Main.storyboard */,
@@ -166,6 +172,7 @@
 			files = (
 				27441F4E1F09906900DD0EA0 /* ClassStructViewController.swift in Sources */,
 				27FE19C41EFC5FDD00ACDA6E /* Node.swift in Sources */,
+				27556CCB202E8D6B00716A6E /* OperationQueueViewController.swift in Sources */,
 				27FE19B41EFC5CD100ACDA6E /* ViewController.swift in Sources */,
 				27441F4C1F08206F00DD0EA0 /* KVOController.swift in Sources */,
 				27FE19C61EFC601B00ACDA6E /* StackController.swift in Sources */,
@@ -175,6 +182,7 @@
 				27441F501F09989B00DD0EA0 /* SwizzleViewController.swift in Sources */,
 				27769E881EFDA33D0028A967 /* LogDebugging.swift in Sources */,
 				27769E8A1F006EBB0028A967 /* MapViewController.swift in Sources */,
+				27556CCD202EA1F100716A6E /* GlobalFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

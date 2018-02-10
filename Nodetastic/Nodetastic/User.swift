@@ -8,14 +8,20 @@
 
 import Foundation
 
-struct UserStruct {
+struct UserStruct { //works by copy
     
-    let name: String
-    let username: String
+    var username: String
+    
+    init(username: String) {
+        self.username = username
+    }
 }
 
-class UserClass {
-    
-    var name: String = ""
+class UserClass { //works by reference
+
     var username: String = ""
+
+    init(username: String) {
+        self.username = username
+    }
 }
