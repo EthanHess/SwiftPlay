@@ -21,4 +21,13 @@ class GlobalFunctions : NSObject {
     
         fromVC.present(alertController, animated: true, completion: nil)
     }
+    
+    static func randomNumber(lowerBound: Int, upperBound: Int) -> Int {
+        guard upperBound > lowerBound else {
+            assertionFailure("Invalid parameters")
+            return 0
+        }
+        let intToReturn = Int(arc4random_uniform(UInt32(upperBound - lowerBound)) + UInt32(lowerBound))
+        return intToReturn
+    }
 }

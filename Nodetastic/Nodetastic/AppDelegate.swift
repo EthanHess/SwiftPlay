@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mapVC = MapViewController()
         let CSVC = ClassStructViewController()
         let swizVC = SwizzleViewController()
+        let skVC = SceneKitViewController()
         
         let navController = UINavigationController(rootViewController: swizVC)
         
@@ -37,8 +38,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         mapVC.tabBarItem = UITabBarItem(title: "Map", image: UIImage(named: ""), tag: 1)
         CSVC.tabBarItem = UITabBarItem(title: "Classes", image: UIImage(named: ""), tag: 2)
         navController.tabBarItem = UITabBarItem(title: "Swizzling", image: UIImage(named: ""), tag: 3)
+        skVC.tabBarItem = UITabBarItem(title: "Scene Kit", image: UIImage(named: ""), tag: 4)
         
-        tabBarController.viewControllers = [mainVC, mapVC, CSVC, navController]
+        tabBarController.viewControllers = [mainVC, mapVC, CSVC, navController, skVC]
         
         window?.rootViewController = tabBarController
         
