@@ -15,6 +15,7 @@
 		27556CCD202EA1F100716A6E /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27556CCC202EA1F100716A6E /* GlobalFunctions.swift */; };
 		27769E881EFDA33D0028A967 /* LogDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27769E871EFDA33D0028A967 /* LogDebugging.swift */; };
 		27769E8A1F006EBB0028A967 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27769E891F006EBB0028A967 /* MapViewController.swift */; };
+		27C29C36207079A2006966E3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C29C35207079A1006966E3 /* Character.swift */; };
 		27F9EA602055AB9D00E1754F /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9EA5F2055AB9D00E1754F /* SceneKitViewController.swift */; };
 		27FE19B21EFC5CD100ACDA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE19B11EFC5CD100ACDA6E /* AppDelegate.swift */; };
 		27FE19B41EFC5CD100ACDA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE19B31EFC5CD100ACDA6E /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 		27556CCC202EA1F100716A6E /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		27769E871EFDA33D0028A967 /* LogDebugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDebugging.swift; sourceTree = "<group>"; };
 		27769E891F006EBB0028A967 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		27C29C35207079A1006966E3 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		27F9EA5F2055AB9D00E1754F /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
 		27FE19AE1EFC5CD100ACDA6E /* Nodetastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nodetastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FE19B11EFC5CD100ACDA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				27FE19C51EFC601B00ACDA6E /* StackController.swift */,
 				27769E871EFDA33D0028A967 /* LogDebugging.swift */,
 				27F9EA5F2055AB9D00E1754F /* SceneKitViewController.swift */,
+				27C29C35207079A1006966E3 /* Character.swift */,
 				27FE19B51EFC5CD100ACDA6E /* Main.storyboard */,
 				27FE19B81EFC5CD100ACDA6E /* Assets.xcassets */,
 				27FE19BA1EFC5CD100ACDA6E /* LaunchScreen.storyboard */,
@@ -185,6 +188,7 @@
 				27441F521F0C304D00DD0EA0 /* SwizzleView.swift in Sources */,
 				27441F501F09989B00DD0EA0 /* SwizzleViewController.swift in Sources */,
 				27769E881EFDA33D0028A967 /* LogDebugging.swift in Sources */,
+				27C29C36207079A2006966E3 /* Character.swift in Sources */,
 				27769E8A1F006EBB0028A967 /* MapViewController.swift in Sources */,
 				27556CCD202EA1F100716A6E /* GlobalFunctions.swift in Sources */,
 			);
