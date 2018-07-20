@@ -32,17 +32,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let swizVC = SwizzleViewController()
         let skVC = SceneKitViewController()
         
-        let navController = UINavigationController(rootViewController: swizVC)
+        let navController = UINavigationController(rootViewController: tabBarController)
         
         mainVC.tabBarItem = UITabBarItem(title: "Stacks", image: UIImage(named: ""), tag: 0)
         mapVC.tabBarItem = UITabBarItem(title: "Map", image: UIImage(named: ""), tag: 1)
         CSVC.tabBarItem = UITabBarItem(title: "Classes", image: UIImage(named: ""), tag: 2)
-        navController.tabBarItem = UITabBarItem(title: "Swizzling", image: UIImage(named: ""), tag: 3)
+        swizVC.tabBarItem = UITabBarItem(title: "Swizzling", image: UIImage(named: ""), tag: 3)
         skVC.tabBarItem = UITabBarItem(title: "Scene Kit", image: UIImage(named: ""), tag: 4)
         
-        tabBarController.viewControllers = [mainVC, mapVC, CSVC, navController, skVC]
+        tabBarController.viewControllers = [mainVC, mapVC, CSVC, swizVC, skVC]
         
-        window?.rootViewController = tabBarController
+        window?.rootViewController = navController
         
         window?.backgroundColor = UIColor.white
         window?.makeKeyAndVisible()
