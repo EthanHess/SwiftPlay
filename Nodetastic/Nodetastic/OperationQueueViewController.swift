@@ -37,10 +37,9 @@ class OperationQueueViewController: UIViewController {
         let ourCustomQueue = DispatchQueue(label: "com.ech.queue", qos: .default, attributes: .concurrent, autoreleaseFrequency: .inherit, target: nil)
         let mutateGroup = DispatchGroup()
         
-        //
-        
         let mutatingCharacter = Character(firstName: "Ethan", lastName: "Hess")
         
+        //usleep parameter is miliseconds
         for (idx, name) in namesList().enumerated() {
             ourCustomQueue.async(group: mutateGroup) {
                 usleep(UInt32(10_000 * idx))

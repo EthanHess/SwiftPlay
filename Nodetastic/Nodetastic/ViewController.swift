@@ -85,7 +85,6 @@ class ViewController: UIViewController {
     }
     
     func round() {
-        
         for view in self.buttonStackView.subviews {
             if view is UIButton {
                 view.layer.cornerRadius = 10
@@ -95,7 +94,6 @@ class ViewController: UIViewController {
     }
     
     func push() {
-        
         if let userToPush = stackOfUsers.top?.next?.value {
             stackOfUsers.push(userToPush)
         } else {
@@ -107,9 +105,7 @@ class ViewController: UIViewController {
     }
     
     func pop() {
-        
         _ = stackOfUsers.pop()
-        
         logCurrent()
     }
     
@@ -120,24 +116,18 @@ class ViewController: UIViewController {
     //For loop
     
     func stackPush() {
-        
         for user in mockUserArray() {
             stackOfUsers.push(user)
         }
-        
         LogDebugging.log("USERS \(stackOfUsers)")
-        
         topUser()
     }
     
     //Map
     
     func stackPushMap() {
-        
         _ = mockUserArray().map({ stackOfUsers.push($0) })
-        
         LogDebugging.log("USERS \(stackOfUsers)")
-        
         //topUser()
     }
     

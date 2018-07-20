@@ -103,9 +103,29 @@ class SceneKitViewController: UIViewController {
         LogDebugging.log("SCN CHILDREN --- \(scnScene.rootNode.childNodes)")
     }
     
+    fileprivate func tapForNode(node: SCNNode) {
+         //We'll just do a SCNHitTestResult for now, no need for this?
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let theTouch = touches.first!
+        if theTouch.view == self.scnView {
+            let location : CGPoint = theTouch.location(in: self.scnView)
+            if let resultLocation = self.scnView.hitTest(location, options: nil).first {
+                LogDebugging.log("Result Node \(resultLocation.node)")
+                goToNetworking()
+            }
+        }
+    }
+    
     //Todo, generate random shape
     func scnShapeTypeArray() -> [Any] {
         return [SCNBox(), SCNSphere(), SCNPyramid()]
+    }
+    
+    fileprivate func goToNetworking() {
+        let networkingVC = CustomServerClientViewController()
+        self.navigationController?.pushViewController(networkingVC, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

@@ -11,10 +11,13 @@
 		27441F4E1F09906900DD0EA0 /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27441F4D1F09906800DD0EA0 /* ClassStructViewController.swift */; };
 		27441F501F09989B00DD0EA0 /* SwizzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27441F4F1F09989B00DD0EA0 /* SwizzleViewController.swift */; };
 		27441F521F0C304D00DD0EA0 /* SwizzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27441F511F0C304D00DD0EA0 /* SwizzleView.swift */; };
+		274481DB20FBC0E200EC2E25 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274481DA20FBC0E200EC2E25 /* Extensions.swift */; };
 		27556CCB202E8D6B00716A6E /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27556CCA202E8D6B00716A6E /* OperationQueueViewController.swift */; };
 		27556CCD202EA1F100716A6E /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27556CCC202EA1F100716A6E /* GlobalFunctions.swift */; };
 		27769E881EFDA33D0028A967 /* LogDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27769E871EFDA33D0028A967 /* LogDebugging.swift */; };
 		27769E8A1F006EBB0028A967 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27769E891F006EBB0028A967 /* MapViewController.swift */; };
+		27AFA0CA20CC3D6000D83645 /* ThreadSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA0C920CC3D6000D83645 /* ThreadSafety.swift */; };
+		27AFA0CC20CC3E0C00D83645 /* CustomServerClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA0CB20CC3E0C00D83645 /* CustomServerClientViewController.swift */; };
 		27C29C36207079A2006966E3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C29C35207079A1006966E3 /* Character.swift */; };
 		27F9EA602055AB9D00E1754F /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9EA5F2055AB9D00E1754F /* SceneKitViewController.swift */; };
 		27FE19B21EFC5CD100ACDA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE19B11EFC5CD100ACDA6E /* AppDelegate.swift */; };
@@ -32,10 +35,13 @@
 		27441F4D1F09906800DD0EA0 /* ClassStructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
 		27441F4F1F09989B00DD0EA0 /* SwizzleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwizzleViewController.swift; sourceTree = "<group>"; };
 		27441F511F0C304D00DD0EA0 /* SwizzleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwizzleView.swift; sourceTree = "<group>"; };
+		274481DA20FBC0E200EC2E25 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		27556CCA202E8D6B00716A6E /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		27556CCC202EA1F100716A6E /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
 		27769E871EFDA33D0028A967 /* LogDebugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDebugging.swift; sourceTree = "<group>"; };
 		27769E891F006EBB0028A967 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		27AFA0C920CC3D6000D83645 /* ThreadSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafety.swift; sourceTree = "<group>"; };
+		27AFA0CB20CC3E0C00D83645 /* CustomServerClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomServerClientViewController.swift; sourceTree = "<group>"; };
 		27C29C35207079A1006966E3 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		27F9EA5F2055AB9D00E1754F /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
 		27FE19AE1EFC5CD100ACDA6E /* Nodetastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nodetastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,9 +88,13 @@
 			children = (
 				27FE19B11EFC5CD100ACDA6E /* AppDelegate.swift */,
 				27FE19B31EFC5CD100ACDA6E /* ViewController.swift */,
+				27AFA0CB20CC3E0C00D83645 /* CustomServerClientViewController.swift */,
+				274481DA20FBC0E200EC2E25 /* Extensions.swift */,
 				27769E891F006EBB0028A967 /* MapViewController.swift */,
 				27441F4D1F09906800DD0EA0 /* ClassStructViewController.swift */,
 				27556CCA202E8D6B00716A6E /* OperationQueueViewController.swift */,
+				27AFA0C920CC3D6000D83645 /* ThreadSafety.swift */,
+				27C29C35207079A1006966E3 /* Character.swift */,
 				27441F4F1F09989B00DD0EA0 /* SwizzleViewController.swift */,
 				27441F511F0C304D00DD0EA0 /* SwizzleView.swift */,
 				27441F4B1F08206F00DD0EA0 /* KVOController.swift */,
@@ -94,7 +104,6 @@
 				27FE19C51EFC601B00ACDA6E /* StackController.swift */,
 				27769E871EFDA33D0028A967 /* LogDebugging.swift */,
 				27F9EA5F2055AB9D00E1754F /* SceneKitViewController.swift */,
-				27C29C35207079A1006966E3 /* Character.swift */,
 				27FE19B51EFC5CD100ACDA6E /* Main.storyboard */,
 				27FE19B81EFC5CD100ACDA6E /* Assets.xcassets */,
 				27FE19BA1EFC5CD100ACDA6E /* LaunchScreen.storyboard */,
@@ -177,6 +186,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27441F4E1F09906900DD0EA0 /* ClassStructViewController.swift in Sources */,
+				274481DB20FBC0E200EC2E25 /* Extensions.swift in Sources */,
+				27AFA0CC20CC3E0C00D83645 /* CustomServerClientViewController.swift in Sources */,
+				27AFA0CA20CC3D6000D83645 /* ThreadSafety.swift in Sources */,
 				27FE19C41EFC5FDD00ACDA6E /* Node.swift in Sources */,
 				27556CCB202E8D6B00716A6E /* OperationQueueViewController.swift in Sources */,
 				27FE19B41EFC5CD100ACDA6E /* ViewController.swift in Sources */,
